@@ -1,4 +1,4 @@
-![Cover imagery]()
+![Cover imagery](https://github.com/Nnaji-David/Sales-Analysis-Performance/blob/main/sales%20pic%202.jpg)
 # SALES PERFORMANCE ANANLYSIS
 
 ## PROJECT OVERVIEW
