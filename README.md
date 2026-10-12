@@ -107,6 +107,25 @@ The raw dataset was provided in an Excel workbook named sales_raw-dataset.xlsx. 
 -	November
 -	December
 
+## DATA CLEANING AND PREPARATION
+#### Checking Missing Values
+All eight columns were checked for missing values. The final dataset contained 0 missing values across all eight fields.
+#### Checking Duplicate Records
+The dataset was checked for duplicate rows. The analysis identified 0 exact duplicate rows, so no duplicate records needed to be removed.
+#### Checking Order Numbers
+There were 444 unique order numbers across 444 records, indicating a one-to-one relationship between the recorded transaction rows and their order numbers in the supplied dataset.
+
+# DATA TYPES
+|Field|	Data Type|
+|-----|----------|
+|Year|	Integer|
+|Month|	Text|
+|Type|	Text|
+|Salesperson|	Text|
+|Region|	Text|
+|Sales|	Decimal/Number|
+|Units|	Integer|
+|Order #|	Integer|
 
 
 
