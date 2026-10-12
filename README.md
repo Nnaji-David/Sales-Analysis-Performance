@@ -1,6 +1,60 @@
 ![Cover imagery](https://github.com/Nnaji-David/Sales-Analysis-Performance/blob/main/sales%20pic.jpg)
 # SALES PERFORMANCE ANANLYSIS
 
+### Excel-Based Data Analytics & Dashboard Project
+
+![Sales Performance Dashboard](sales-dashboard.png)
+
+> A Microsoft Excel project that transforms historical sales transactions into useful business insights through data-quality checks, PivotTables, PivotCharts, and an interactive-style dashboard.
+
+---
+
+## 📌 Table of Contents
+
+ [🔎 Project Overview](#-PROJECT-OVERVIEW)
+ 
+ [🎯 Project Objectives](#PROJECTOBJECTIVES)
+ 
+ [❓ Business Questions](#-business-questions)
+ 
+ [🗂️ Dataset Description](#️-dataset-description)
+ 
+ [🧹 Data Cleaning and Preparation](#-data-cleaning-and-preparation)
+ 
+ [⚙️ Analysis Methodology](#️-analysis-methodology)
+ 
+ [📈 Analysis and Findings](#-analysis-and-findings)
+ 
+ [📊 Dashboard](#-dashboard)
+ 
+ [💡 Key Insights](#-key-insights)
+ 
+ [✅ Recommendations](#-recommendations)
+ 
+ [⚠️ Limitations](#️-limitations)
+ 
+ [🧰 Tools and Skills](#-tools-and-skills)
+ 
+ [🖼️ Project Screenshots](#️-project-screenshots)
+ 
+ [🏁 Conclusion](#-conclusion)
+
+---
+
+
+
+### 📍 Headline Results
+
+| KPI | Result |
+|---|---:|
+| 💰 Total Sales Revenue | **3,254,576.95** |
+| 📦 Total Units Sold | **2,322,594** |
+| 🧾 Total Transactions | **444** |
+| 🛒 Average Sales per Transaction | **7,330.13** |
+
+
+---
+
 ## PROJECT OVERVIEW
 This project involved analyzing historical sales data using Microsoft Excel to transform transactional records into meaningful business insights. The analysis focused on evaluating revenue performance across different regions, salespeople, product types, years, and months.
 The dataset contained sales transactions recorded between 2013 and 2015. Each transaction included details such as year, month, product type, salesperson, region, sales value, units sold, and order number.
