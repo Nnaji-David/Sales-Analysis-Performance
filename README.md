@@ -82,6 +82,31 @@ The raw dataset was provided in an Excel workbook named sales_raw-dataset.xlsx. 
 |Regions|	4|
 |Recorded months|	7|
 
+#### Product types represented:
+-	Ice Cream
+-	Frozen Yogurt
+-	Popsicles
+-	Tasty Treats
+#### Regions represented:
+-	Central
+-	North
+-	South
+-	West
+#### Salespeople represented:
+-	Bishop
+-	Lee
+-	Parker
+-	Pullen
+-	Watson
+#### Months represented:
+-	January
+-	February
+-	March
+-	April
+-	May
+-	November
+-	December
+
 
 
 
