@@ -134,6 +134,253 @@ For example: 1,597 units × 1.5 = 2,395.50 sales.
 
 ## DATA ANALYSIS METHODOLOGY
 
+The project followed this workflow:
+
+```text
+Raw Sales Data
+      ↓
+Data Inspection
+      ↓
+Data Quality Checks
+      ↓
+Data Preparation
+      ↓
+PivotTables
+      ↓
+Revenue Summaries
+      ↓
+Charts
+      ↓
+Dashboard
+      ↓
+Business Insights
+```
+
+The main metric was **Sales/Revenue**. Revenue was compared across region, salesperson, product type, year, and month. Additional indicators included total units and total transactions.
+
+---
+
+## 📈 Analysis and Findings
+
+### 1. Overall Sales Performance
+
+| KPI | Result |
+|---|---:|
+| Total Sales | 3,254,576.95 |
+| Total Units | 2,322,594 |
+| Total Transactions | 444 |
+| Average Sales per Transaction | 7,330.13 |
+
+The dataset recorded **3,254,576.95** in total sales across 444 transactions. Average sales per transaction were approximately **7,330.13**.
+
+### 2. Regional Sales Performance
+
+| Region | Revenue |
+|---|---:|
+| Central | 1,391,555.30 |
+| North | 760,122.80 |
+| West | 596,929.90 |
+| South | 505,968.95 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest:** Central — 1,391,555.30
+- Lowest: South — 505,968.95
+- Central contributed approximately **42.8%** of total revenue.
+
+![Revenue by Region](sales-by-region.png)
+
+### 3. Salesperson Performance
+
+| Salesperson | Revenue |
+|---|---:|
+| Parker | 760,122.80 |
+| Lee | 740,578.40 |
+| Watson | 650,976.90 |
+| Bishop | 596,929.90 |
+| Pullen | 505,968.95 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest:** Parker — 760,122.80
+- Lowest: Pullen — 505,968.95
+
+![Revenue by Salesperson](sales-by-salesperson.png)
+
+### 4. Product Type Performance
+
+| Product Type | Revenue |
+|---|---:|
+| Ice Cream | 1,379,573.20 |
+| Tasty Treats | 840,113.65 |
+| Frozen Yogurt | 650,077.50 |
+| Popsicles | 384,812.60 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest:** Ice Cream — 1,379,573.20
+- Lowest: Popsicles — 384,812.60
+- Ice Cream accounted for approximately **42.4%** of total revenue.
+
+![Revenue by Product Type](revenue-by-type.png)
+
+### 5. Yearly Sales Performance
+
+| Year | Revenue |
+|---|---:|
+| 2013 | 1,008,662.75 |
+| 2014 | 1,138,686.00 |
+| 2015 | 1,107,228.20 |
+| **Total** | **3,254,576.95** |
+
+- 🥇 **Highest year:** 2014 — 1,138,686.00
+- Revenue increased by approximately **12.9%** from 2013 to 2014.
+- Revenue then declined by approximately **2.8%** from 2014 to 2015.
+
+![Revenue by Year](revenue-by-year.png)
+
+### 6. Monthly Sales Performance
+
+| Month | Revenue |
+|---|---:|
+| April | 640,494.40 |
+| February | 521,344.75 |
+| January | 513,336.00 |
+| May | 428,512.40 |
+| March | 423,204.70 |
+| November | 383,151.70 |
+| December | 344,533.00 |
+
+- 🥇 **Highest recorded month:** April — 640,494.40
+- **Lowest recorded month:** December — 344,533.00
+
+![Revenue by Month](revenue-by-month.png)
+
+> ⚠️ **Monthly coverage note:** Only seven months appear in the dataset. June through October have no records, so these results describe the months represented in the data—not a complete 12-month trend.
+
+---
+
+## 📊 Dashboard
+
+A dashboard was created in the workbook identified in the source documentation as `sales-performance-dashboard.xlsx`. It brings together key indicators and revenue breakdowns in one visual interface.
+
+### Dashboard KPIs
+
+| KPI | Value |
+|---|---:|
+| Total Sales | 3,254,576.95 |
+| Total Units | 2,322,594 |
+| Total Transactions | 444 |
+
+### Dashboard Visualizations
+
+- Revenue by month
+- Revenue by year
+- Revenue by region
+- Revenue by salesperson
+- Revenue by product type
+
+### Dashboard Preview
+
+![Sales Performance Dashboard](sales-dashboard.png)
+
+The dashboard makes it easier to review overall sales, transaction volume, units sold, and performance across the available business categories without manually examining each summary table.
+
+---
+
+## 💡 Key Insights
+
+1. **Overall revenue:** The dataset generated **3,254,576.95** across 444 transactions.
+2. **Regional performance:** Central was the leading region, generating **1,391,555.30**—approximately 42.8% of total revenue.
+3. **Salesperson performance:** Parker recorded the highest salesperson revenue at **760,122.80**.
+4. **Product performance:** Ice Cream led product types with **1,379,573.20**, approximately 42.4% of total revenue.
+5. **Annual performance:** 2014 had the highest annual revenue at **1,138,686.00**.
+6. **Monthly performance:** April was the highest-performing month among the months represented, with **640,494.40**.
+
+## ✅ Recommendations
+
+- **Examine the Central region:** Investigate the customer, product, salesperson, and transaction factors that may contribute to its strong performance.
+- **Investigate lower-performing regions:** Explore whether South's lower revenue relates to transaction volume, customer count, product mix, sales coverage, or market conditions.
+- **Monitor product performance:** Track Ice Cream demand, inventory, pricing, and regional performance while investigating the lower revenue from other product types.
+- **Review salesperson performance in context:** Compare revenue alongside transaction count, units sold, average transaction value, customer count, and region.
+- **Investigate monthly patterns:** Examine promotions, seasonality, customer behavior, and product availability that could help explain April's higher recorded revenue.
+
+These are investigation points suggested by the observed results; the dataset does not establish the causes of the performance differences.
+
+---
+
+## ⚠️ Limitations
+
+- **Incomplete monthly coverage:** The dataset contains January, February, March, April, May, November, and December. June through October have no records.
+- **Limited business variables:** Customer information, marketing expenditure, cost of goods sold, profit, discounts, inventory, and competitor information are not included.
+- **Historical data:** The analysis covers 2013–2015 and describes the supplied historical records.
+- **Limited explanatory context:** The dataset shows differences among regions, salespeople, and products but does not explain why those differences occurred.
+
+---
+
+## 🧰 Tools and Skills
+
+### Tools Used
+- Microsoft Excel
+- Excel formulas
+- PivotTables
+- PivotCharts
+- Excel dashboard
+- Data sorting and filtering
+- Data validation and checking
+
+### Skills Demonstrated
+- Data inspection and preparation
+- Data-quality checks
+- Missing-value and duplicate checks
+- Data-type verification
+- Revenue and comparative analysis
+- Time-based analysis
+- KPI calculation
+- Data visualization
+- Dashboard design
+- Business insight generation
+- Technical documentation and report writing
+
+---
+
+## 🖼️ Project Screenshots
+
+### Raw Dataset
+![Raw Sales Dataset](AppendixA.png)
+
+### Prepared Sales Data
+![Prepared Sales Data](AppendixB.png)
+
+### Regional Analysis
+![Regional Analysis](sales-by-region-pivottable.png)
+
+### Salesperson Analysis
+![Salesperson Analysis](sales-by-salesperson.png)
+
+### Product Analysis
+![Product Analysis](revenue-by-type.png)
+
+### Yearly Analysis
+![Yearly Analysis](revenue-by-year.png)
+
+### Monthly Analysis
+![Monthly Analysis](revenue-by-month.png)
+
+### Final Dashboard
+![Final Dashboard](sales-dashboard.png)
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrated how Microsoft Excel can be used to transform raw sales transaction data into meaningful business information. The analysis examined 444 transactions covering 2013–2015 and included product types, salespeople, regions, sales revenue, units sold, months, and order numbers.
+The analysis produced several important findings. Total sales amounted to 3,254,576.95, while total units sold reached 2,322,594. The Central region generated the highest revenue, Parker was the highest-revenue salesperson, and Ice Cream was the highest-revenue product type. At the annual level, 2014 produced the highest revenue, while April was the highest-performing recorded month.
+The completed dashboard provides a consolidated visual representation of these results and demonstrates how Excel can be used not only for calculations but also for business analysis and data visualization.
+
+
+---
+
+
+
+  
 
 
 
