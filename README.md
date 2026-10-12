@@ -115,7 +115,7 @@ The dataset was checked for duplicate rows. The analysis identified 0 exact dupl
 #### Checking Order Numbers
 There were 444 unique order numbers across 444 records, indicating a one-to-one relationship between the recorded transaction rows and their order numbers in the supplied dataset.
 
-# DATA TYPES
+## DATA TYPES
 |Field|	Data Type|
 |-----|----------|
 |Year|	Integer|
@@ -126,6 +126,13 @@ There were 444 unique order numbers across 444 records, indicating a one-to-one 
 |Sales|	Decimal/Number|
 |Units|	Integer|
 |Order #|	Integer|
+
+## SALES CALCULATION
+The completed workbook contains calculated sales values. In several rows, the Sales field is calculated using the Units field multiplied by a factor of 1.5.
+Sales = Units × 1.5
+For example: 1,597 units × 1.5 = 2,395.50 sales.
+
+## DATA ANALYSIS METHODOLOGY
 
 
 
