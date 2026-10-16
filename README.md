@@ -11,9 +11,9 @@
 
 ## 📌 Table of Contents
 
- [🔎 Project Overview](#-PROJECT-OVERVIEW)
+ [🔎 Project Overview](#-project-overview)
  
- [🎯 Project Objectives](#PROJECTOBJECTIVES)
+ [🎯 Project Objectives](#-project-objectives)
  
  [❓ Business Questions](#-business-questions)
  
@@ -55,7 +55,7 @@
 
 ---
 
-##  Project Overview
+## 🔎 Project Overview
 This project involved analyzing historical sales data using Microsoft Excel to transform transactional records into meaningful business insights. The analysis focused on evaluating revenue performance across different regions, salespeople, product types, years, and months.
 The dataset contained sales transactions recorded between 2013 and 2015. Each transaction included details such as year, month, product type, salesperson, region, sales value, units sold, and order number.
 The dataset was reviewed and prepared prior to analysis. Excel PivotTables and charts were then used to summarize the data, identify sales patterns, and evaluate performance across the different business dimensions. A dashboard was subsequently developed to provide a consolidated visual view of key performance indicators and sales trends.
@@ -74,7 +74,7 @@ This project therefore focuses on organizing, analyzing, and interpreting the av
 - Which months experienced the highest and lowest sales activities?
 - What important trends or patterns can be identified to guide future sales planning and decision-making?
 
-## Project Objectives
+## 🎯 Project Objectives
  - Examine the structure and quality of the sales dataset.
  - Organize the sales information for analysis.
  - Calculate total sales revenue.
@@ -90,7 +90,7 @@ This project therefore focuses on organizing, analyzing, and interpreting the av
  - Develop a sales-performance dashboard.
  - Generate useful business insights from the analysis.
 
-## BUSINESS QUESTIONS
+## ❓ Business Questions
 ### Overall Performance
 1.  What is the total revenue generated?
 2.	How many units were sold?
@@ -112,7 +112,7 @@ This project therefore focuses on organizing, analyzing, and interpreting the av
 14.	Which month generated the highest revenue?
 15.	How did revenue change across the analyzed years?
 
-# DATASET DESCRIPTION
+## 🗂️ Dataset Description
 The raw dataset was provided in an Excel workbook named sales_raw-dataset.xlsx. The dataset contains 444 sales transaction records and 8 columns.
 
 |Field|	Description|
@@ -161,7 +161,7 @@ The raw dataset was provided in an Excel workbook named sales_raw-dataset.xlsx. 
 -	November
 -	December
 
-## DATA CLEANING AND PREPARATION
+## 🧹 Data Cleaning and Preparation
 #### Checking Missing Values
 All eight columns were checked for missing values. The final dataset contained 0 missing values across all eight fields.
 #### Checking Duplicate Records
