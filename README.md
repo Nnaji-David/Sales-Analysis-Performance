@@ -61,19 +61,6 @@ The dataset contained sales transactions recorded between 2013 and 2015. Each tr
 The dataset was reviewed and prepared prior to analysis. Excel PivotTables and charts were then used to summarize the data, identify sales patterns, and evaluate performance across the different business dimensions. A dashboard was subsequently developed to provide a consolidated visual view of key performance indicators and sales trends.
 The dataset contained 444 transactions, representing 2,322,594 units sold and total sales revenue of 3,254,576.95. The Central region generated the highest revenue, while Parker recorded the highest sales among the salespeople. Ice Cream was the highest-revenue product type, 2014 recorded the highest annual revenue, and April generated the highest revenue among the months represented in the dataset.
 
-## Business Problem
-Sales records provide important information about a company’s revenue, product performance, regional sales activities, and the contributions of individual salespeople. However, raw sales data can be difficult to interpret and may not clearly reveal important trends or patterns.
-
-This project therefore focuses on organizing, analyzing, and interpreting the available sales data to provide useful answers to key business questions, including:
-
-- What was the total revenue generated within the period covered by the dataset?
-- How are sales distributed among the different regions?
-- Which salespeople made the greatest contribution to total sales?
-- Which product categories recorded the highest sales?
-- How has sales performance changed from one year to another?
-- Which months experienced the highest and lowest sales activities?
-- What important trends or patterns can be identified to guide future sales planning and decision-making?
-
 ## 🎯 Project Objectives
  - Examine the structure and quality of the sales dataset.
  - Organize the sales information for analysis.
